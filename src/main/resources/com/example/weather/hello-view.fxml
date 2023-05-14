@@ -10,46 +10,55 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="536.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.weather.Controller">
    <children>
-      <ImageView fitHeight="605.0" fitWidth="818.0" layoutX="-120.0" layoutY="-20.0">
+      <ImageView fitHeight="683.0" fitWidth="786.0" layoutX="-79.0" layoutY="-56.0">
          <image>
-            <Image url="@../../../../../../files/1663709574_1-phonoteka-org-p-oboi-s-nebom-krasivo-1.jpg" />
+            <Image url="@../../../../../../files/pexels-paul-voie-2627945.jpg" />
          </image>
       </ImageView>
       <AnchorPane layoutX="145.0" layoutY="4.0" prefHeight="97.0" prefWidth="281.0">
          <children>
-            <Text layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weather" textAlignment="CENTER" wrappingWidth="287.130859375">
+            <Text layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Check the weather" textAlignment="CENTER" wrappingWidth="287.130859375">
                <font>
-                  <Font size="29.0" />
+                  <Font name="Century" size="27.0" />
                </font>
             </Text>
          </children>
       </AnchorPane>
-      <TextField fx:id="city" layoutX="203.0" layoutY="147.0" />
-      <Text layoutX="239.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your location" wrappingWidth="100.130859375" />
-      <Button fx:id="getData" layoutX="375.0" layoutY="147.0" mnemonicParsing="false" text="Search" />
-      <Text layoutX="208.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Information:" wrappingWidth="139.130859375">
+      <TextField fx:id="city" layoutX="213.0" layoutY="147.0" prefHeight="28.0" prefWidth="153.0">
          <font>
-            <Font size="24.0" />
+            <Font name="Century" size="14.0" />
+         </font></TextField>
+      <Text layoutX="206.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter your location" textAlignment="CENTER" wrappingWidth="166.130859375">
+         <font>
+            <Font name="Century" size="15.0" />
+         </font></Text>
+      <Button fx:id="getData" layoutX="372.0" layoutY="147.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="67.0" text="Search">
+         <font>
+            <Font name="Century" size="14.0" />
+         </font></Button>
+      <Text layoutX="187.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Local information:" wrappingWidth="204.130859375">
+         <font>
+            <Font name="Century" size="24.0" />
          </font>
       </Text>
-      <Text fx:id="temp_info" layoutX="21.0" layoutY="263.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Temperature:" wrappingWidth="195.130859375">
+      <Text fx:id="temp_info" layoutX="21.0" layoutY="286.0" stroke="#d0b1b1" strokeType="OUTSIDE" strokeWidth="2.0" text="Temperature:" wrappingWidth="195.130859375">
          <font>
-            <Font size="18.0" />
+            <Font name="Century" size="18.0" />
          </font>
       </Text>
-      <Text fx:id="temp_min" layoutX="21.0" layoutY="366.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minimum :" wrappingWidth="139.130859375">
+      <Text fx:id="temp_max" layoutX="21.0" layoutY="329.0" stroke="#d0b1b1" strokeType="OUTSIDE" strokeWidth="2.0" text="Maximum :" wrappingWidth="195.130859375">
          <font>
-            <Font size="18.0" />
+            <Font name="Century" size="18.0" />
          </font>
       </Text>
-      <Text fx:id="temp_max" layoutX="21.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Maximum :" wrappingWidth="139.130859375">
+      <Text fx:id="temp_min" layoutX="21.0" layoutY="375.0" stroke="#d0b1b1" strokeType="OUTSIDE" strokeWidth="2.0" text="Minimum :" wrappingWidth="195.130859375">
          <font>
-            <Font size="18.0" />
+            <Font name="Century" size="18.0" />
          </font>
       </Text>
-      <Text fx:id="pressure" layoutX="21.0" layoutY="425.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pressure:" wrappingWidth="139.130859375">
+      <Text fx:id="pressure" layoutX="21.0" layoutY="424.0" stroke="#d0b1b1" strokeType="OUTSIDE" strokeWidth="2.0" text="Pressure:" wrappingWidth="195.130859375">
          <font>
-            <Font size="18.0" />
+            <Font name="Century" size="18.0" />
          </font>
       </Text>
    </children>

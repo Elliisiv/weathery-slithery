@@ -11,27 +11,25 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 
+    public class Controller {
 
-public class Controller {
+        @FXML
+        private TextField city;
 
-    @FXML
-    private TextField city;
+        @FXML
+        private Button getData;
 
-    @FXML
-    private Button getData;
+        @FXML
+        private Text pressure;
 
-    @FXML
-    private Text pressure;
+        @FXML
+        private Text temp_info;
 
-    @FXML
-    private Text temp_info;
+        @FXML
+        private Text temp_max;
 
-    @FXML
-    private Text temp_max;
-
-    @FXML
-    private Text temp_min;
-
+        @FXML
+        private Text temp_min;
 
 
 
